@@ -1,0 +1,92 @@
+.header{
+    width: 100px;
+    height: 906px;
+    left: 0px;
+    top: calc(50% - 906px/2);
+    background-color: var(--nav-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    position:relative;
+
+}
+.header > .logo{
+    width: 68px;
+    height: 34px;
+    position:absolute;
+    left: 16px;
+    top: calc(50% - 34px/2 - 384px);
+
+}
+.header > .border{
+    border: 1px solid #C4C4C4;
+    position: absolute;
+    width: 62.24px;
+    height: 0px;
+    left: 18px;
+    top: 110.03px;
+
+}
+.navigation{
+    height: 50%;
+    display:inline-block;
+    margin-top: 158px;
+    position:absolute;
+    left: 16px;
+    top: calc(50% - 34px/2 - 384px);
+ 
+}   
+
+  .navigation > .navlink{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 57px;
+
+     }
+
+  .navlink > span{
+    display: none;
+}
+
+  .navigation > .icon{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    left: calc(50% - 25px/2 - 664.5px);
+    
+    
+}
+ .navigation > .icon:last-child{
+    width: 40px;
+    margin-left: 30px;
+ }
+
+.navigation:hoover{
+/*7) Atliekame :hover dalį kuri prasiplečia ir 
+atsiranda tekstas. Patarimas: panaudoti
+ max-width ir transition savybes.
+    */
+}
+
+.bottom-border{
+    border: 1px solid;
+    position: absolute;
+    width: 346.01px;
+    height: 0px;
+    left: 547px;
+    top: 871px;
+    color:#02577A;
+
+}
+
+.bottom-text{
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 626px;
+    top: 882px;
+    font-size: 11px;
+    line-height: 13px;
+    font-style: normal;
+    font-weight: 500;
+    color:#02577A;
+}
