@@ -1,0 +1,19 @@
+
+ body,
+ body * {
+     margin: 0;
+     padding: 0;
+     vertical-align: top;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: "Montserrat", sans-serif;
+     background-color: var(--main-color);
+ }
+
+ :root {
+     --main-color: #EBEEF5;
+     --nav-color: #F7F6FF;
+     --layout-font: #02577A; 
+ }
