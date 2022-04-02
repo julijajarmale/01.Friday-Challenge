@@ -1,21 +1,22 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
 
- body,
- body * {
-     margin: 0;
-     padding: 0;
-     vertical-align: top;
-     box-sizing: border-box;
- }
- 
- body {
-     font-family: "Montserrat", sans-serif;
-     background-color: var(--main-color);
-     height: 100vh;
-     position: relative;
- }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
- :root {
-     --main-color: #EBEEF5;
-     --nav-color: #F7F6FF;
-     --layout-font: #02577A; 
- }
+:root {
+    --body-grey: #EBEEF5;
+    --nav-grey: #F7F6FF;
+    --font-blue: #02577A; 
+    --line-grey: #C4C4C4;
+    --font-grey: #C4C4C4;
+    
+
+}
+
