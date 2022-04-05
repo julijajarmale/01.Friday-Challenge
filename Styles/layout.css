@@ -12,6 +12,7 @@ body > .navigation{
     background-color: var(--nav-grey);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
+    overflow: hidden;
 }
 
 .navigation:hover{
@@ -21,11 +22,10 @@ body > .navigation{
 }
 
 .logo{
-    margin-top:52px;
     width: 68px;
     height: 34px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: auto;
+    display: block;
 }
 
  .navigation > .line{
@@ -33,7 +33,8 @@ body > .navigation{
     height: 2px;
     background-color: var(--line-grey);
     border-color:var(--line-grey);
-    margin-left:18px;
+    margin: auto;
+    display: block;
     margin-top: 20px;
 }
 
@@ -55,8 +56,20 @@ body > .navigation{
     color: var(--font-grey);
     text-decoration: none;
     margin-top: 30px;
+    padding: 15px;
+    width: 206px;
 }
 
+a:first-child{
+    width:100%;
+    height: 34px;
+    display:block;
+    margin-top: 52px;
+}
+
+.navigation:hover > .main-links > .links{
+    font-size: 18px;
+}
 .links:first-child{
     padding: 15px;
     background-color: #FFFFFF;
