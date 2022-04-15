@@ -2,7 +2,6 @@ body {
     height: 100vh;
     position: relative;
     background-color: var(--body-grey);
-    position: relative;
 }
 
 body > .navigation{
